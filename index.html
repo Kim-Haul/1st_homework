@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>React 사전과제</title>
+  <!-- 합쳐지고 최소화된 최신 부트스트랩 CSS -->
+  <!-- 부가적인 테마 -->
+  <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+  <!-- FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Oswald:wght@500&display=swap"
+    rel="stylesheet">
+
+  <style>
+    form {
+      border: 1px solid black;
+      width: 300px;
+      margin: 10px auto;
+      padding: 10px;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    span {
+      color: red;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1><strong><span>R</span>eact 사전과제</strong></h1>
+  </header>
+  <form action="">
+    First name : <br />
+    <input type="text" required> <br />
+    Last name : <br />
+    <input type="text" required> <br />
+    Email : <br />
+    <input type="text" required> <br />
+    Gender :
+    <input type="radio"> Male
+    <input type="radio"> Female <br />
+    Favorite :
+    <input type="checkbox"> HTML
+    <input type="checkbox"> JAVA
+    <input type="checkbox"> JavaScript <br />
+    Browser : <select name="browser">
+      <option value="chrome">크롬</option>
+      <option value="opera">오페라</option>
+      <option value="safari">사파리</option>
+    </select> <br />
+    Birthday : <input type="date"> <br />
+    <input type="submit">
+  </form>
+</body>
+
+</html>
